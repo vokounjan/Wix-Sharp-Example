@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\je29041\\source\\repos\\WixSharpApp\\CompanyProject\\CompanySetupProject.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\je29041\\source\\repos\\WixSharpApp\\CompanyProject\\CompanySetupProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\je29041\\source\\repos\\WixSharpApp\\CompanyProject\\CompanySetupProject.csproj",
+        "projectName": "CompanySetupProject",
+        "projectPath": "C:\\Users\\je29041\\source\\repos\\WixSharpApp\\CompanyProject\\CompanySetupProject.csproj",
+        "packagesPath": "C:\\Users\\je29041\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\je29041\\source\\repos\\WixSharpApp\\CompanyProject\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\je29041\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\tfs.csob.cz\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "WixSharp.bin": {
+              "target": "Package",
+              "version": "[1.13.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

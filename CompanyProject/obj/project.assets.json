@@ -1,0 +1,176 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "WixSharp.bin/1.13.0": {
+        "type": "package",
+        "compile": {
+          "lib/BootstrapperCore.dll": {},
+          "lib/Microsoft.Deployment.WindowsInstaller.dll": {},
+          "lib/WixSharp.Msi.dll": {},
+          "lib/WixSharp.UI.dll": {},
+          "lib/WixSharp.dll": {}
+        },
+        "runtime": {
+          "lib/BootstrapperCore.dll": {},
+          "lib/Microsoft.Deployment.WindowsInstaller.dll": {},
+          "lib/WixSharp.Msi.dll": {},
+          "lib/WixSharp.UI.dll": {},
+          "lib/WixSharp.dll": {}
+        },
+        "build": {
+          "build/WixSharp.bin.targets": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win": {
+      "WixSharp.bin/1.13.0": {
+        "type": "package",
+        "compile": {
+          "lib/BootstrapperCore.dll": {},
+          "lib/Microsoft.Deployment.WindowsInstaller.dll": {},
+          "lib/WixSharp.Msi.dll": {},
+          "lib/WixSharp.UI.dll": {},
+          "lib/WixSharp.dll": {}
+        },
+        "runtime": {
+          "lib/BootstrapperCore.dll": {},
+          "lib/Microsoft.Deployment.WindowsInstaller.dll": {},
+          "lib/WixSharp.Msi.dll": {},
+          "lib/WixSharp.UI.dll": {},
+          "lib/WixSharp.dll": {}
+        },
+        "build": {
+          "build/WixSharp.bin.targets": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x64": {
+      "WixSharp.bin/1.13.0": {
+        "type": "package",
+        "compile": {
+          "lib/BootstrapperCore.dll": {},
+          "lib/Microsoft.Deployment.WindowsInstaller.dll": {},
+          "lib/WixSharp.Msi.dll": {},
+          "lib/WixSharp.UI.dll": {},
+          "lib/WixSharp.dll": {}
+        },
+        "runtime": {
+          "lib/BootstrapperCore.dll": {},
+          "lib/Microsoft.Deployment.WindowsInstaller.dll": {},
+          "lib/WixSharp.Msi.dll": {},
+          "lib/WixSharp.UI.dll": {},
+          "lib/WixSharp.dll": {}
+        },
+        "build": {
+          "build/WixSharp.bin.targets": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x86": {
+      "WixSharp.bin/1.13.0": {
+        "type": "package",
+        "compile": {
+          "lib/BootstrapperCore.dll": {},
+          "lib/Microsoft.Deployment.WindowsInstaller.dll": {},
+          "lib/WixSharp.Msi.dll": {},
+          "lib/WixSharp.UI.dll": {},
+          "lib/WixSharp.dll": {}
+        },
+        "runtime": {
+          "lib/BootstrapperCore.dll": {},
+          "lib/Microsoft.Deployment.WindowsInstaller.dll": {},
+          "lib/WixSharp.Msi.dll": {},
+          "lib/WixSharp.UI.dll": {},
+          "lib/WixSharp.dll": {}
+        },
+        "build": {
+          "build/WixSharp.bin.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WixSharp.bin/1.13.0": {
+      "sha512": "QhRy8QY6Nx3xxSUu2g5ptV9X+wsgvj8Fl+SZcJxbKqQF9QhiqrHwcfBPlr6AWZZQljK5s7GgA15Vv/DKzPiypQ==",
+      "type": "package",
+      "path": "wixsharp.bin/1.13.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/WixSharp.bin.targets",
+        "lib/BootstrapperCore.dll",
+        "lib/BootstrapperCore.xml",
+        "lib/Microsoft.Deployment.WindowsInstaller.dll",
+        "lib/Microsoft.Deployment.WindowsInstaller.xml",
+        "lib/WixSharp.Msi.dll",
+        "lib/WixSharp.Msi.xml",
+        "lib/WixSharp.UI.dll",
+        "lib/WixSharp.UI.xml",
+        "lib/WixSharp.dll",
+        "lib/WixSharp.xml",
+        "lib/nbsbuilder.exe",
+        "wixsharp.bin.1.13.0.nupkg.sha512",
+        "wixsharp.bin.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "WixSharp.bin >= 1.13.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\je29041\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\je29041\\source\\repos\\WixSharpApp\\CompanyProject\\CompanySetupProject.csproj",
+      "projectName": "CompanySetupProject",
+      "projectPath": "C:\\Users\\je29041\\source\\repos\\WixSharpApp\\CompanyProject\\CompanySetupProject.csproj",
+      "packagesPath": "C:\\Users\\je29041\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\je29041\\source\\repos\\WixSharpApp\\CompanyProject\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\je29041\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "\\\\tfs.csob.cz\\Packages": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "dependencies": {
+          "WixSharp.bin": {
+            "target": "Package",
+            "version": "[1.13.0, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}
